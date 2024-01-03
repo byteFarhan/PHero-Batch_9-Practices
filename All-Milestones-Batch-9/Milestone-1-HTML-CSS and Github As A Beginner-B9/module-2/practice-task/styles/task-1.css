@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.div-style {
+  margin: 30px;
+  padding: 50px;
+  border-radius: 20px;
+  border: 5px solid brown;
+  background: whitesmoke;
+  box-shadow: 5px 5px wheat;
+}
