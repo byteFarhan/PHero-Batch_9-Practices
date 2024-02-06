@@ -1,9 +1,9 @@
 // var number = 14.243;
 // var x = "19.234";
 // var y = "20";
-// // console.log(parseInt(number));
-// // console.log(parseInt(x));
-// // console.log(parseFloat(x));
+// console.log(parseInt(number));
+// console.log(parseInt(x));
+// console.log(parseFloat(x));
 // var num = parseFloat(x);
 // console.log(num);
 // var z = parseInt(y);

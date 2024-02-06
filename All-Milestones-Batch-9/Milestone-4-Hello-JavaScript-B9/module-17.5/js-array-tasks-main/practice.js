@@ -44,3 +44,53 @@ for (var i = 1; i <= 3; i++) {
     console.log(i);
   }, 1000);
 }
+
+const fruits = ["apple", "kiwi", "orange", "lemon"];
+// fruits.splice(2, 0, "mango", "banana");
+// fruits.splice(2, 0, ["mango", "banana"]);
+const arr = ["mango", "banana"];
+const removeFruits = fruits.splice(2, 0, ...arr);
+console.log(fruits);
+console.log(removeFruits);
+
+// fruits.splice(2, 3);
+// console.log(fruits);
+console.log(fruits.slice(1));
+console.log(fruits.slice(1, 4));
+// console.log(fruits);
+
+const ascendingSort = fruits.sort();
+console.log(ascendingSort);
+const descendingSort = ascendingSort.reverse();
+console.log(descendingSort);
+
+const numbers = [40, 100, 25, 22, 14, 31, 65, 234];
+const numbersAscending = numbers.sort((a, b) => a - b);
+console.log(numbersAscending);
+
+const numberDescending = numbers.sort((a, b) => b - a);
+console.log(numberDescending);
+
+const num = -10;
+if (num) {
+  console.log("num is true");
+}
+
+const testMap = numbers.map((value, index, array) => {
+  // console.log(value);
+  // console.log(index);
+  // console.log(array);
+  // console.log("------------");
+  /*********************************/
+  // return function () {
+  //   console.log(value);
+  //   console.log(index);
+  //   console.log(array);
+  //   console.log("------------");
+  //   return value * 4;
+  // };
+  return value * index * array.length;
+});
+console.log(testMap);
+const testMapSort = testMap.sort((a, b) => a - b);
+console.log(testMapSort);

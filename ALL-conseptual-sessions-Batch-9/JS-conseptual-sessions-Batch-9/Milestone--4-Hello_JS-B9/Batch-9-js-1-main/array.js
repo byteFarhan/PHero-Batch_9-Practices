@@ -47,3 +47,8 @@ var numbers = [10, 20, 30, 40, 50, 80, 55];
 // numbers.splice(3, 0, 200, 500, 600);
 
 console.log(numbers);
+
+const bot = "bot";
+// bot.to;
+let str = "Mississippi";
+console.log(str.indexOf("i", 3));
