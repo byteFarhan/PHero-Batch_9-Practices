@@ -10,10 +10,10 @@ Write a loop that goes from 1 to 100, but stops (using break) when it encounters
 //   }
 //   i++;
 // }
-let i = 2;
+let i = 1;
 while (i <= 100) {
-  console.log(i - 1);
-  if (Math.sqrt(i) === parseInt(Math.sqrt(i))) {
+  console.log(i);
+  if (Math.sqrt(i) === parseInt(Math.sqrt(i)) && i !== 1) {
     console.log("The first sqrt number is ", i);
     break;
   }

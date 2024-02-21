@@ -49,3 +49,6 @@ if (
 
 const num = 56;
 console.log(Number.isInteger(num));
+
+const strt = "number";
+console.log(strt.split(""));

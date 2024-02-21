@@ -65,3 +65,7 @@ for (let i = splitStatement.length - 1; i >= 0; i--) {
 console.log(revSplitStatement);
 const result = revSplitStatement.join(" ");
 console.log("Task -#4 Output:->", result);
+
+/*****************************************************/
+console.log(Infinity);
+console.log(typeof Infinity);
